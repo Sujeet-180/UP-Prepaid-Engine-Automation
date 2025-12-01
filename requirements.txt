@@ -1,0 +1,28 @@
+# UP Prepaid Engine Automation - Dependencies
+# Install with: pip install -r requirements.txt
+
+# Data processing and analysis
+pandas>=1.5.0
+numpy>=1.21.0
+
+# Excel file handling
+openpyxl>=3.0.0
+
+# HTTP requests for API interactions
+requests>=2.28.0
+
+# PostgreSQL database connectivity
+psycopg2-binary>=2.9.0
+
+# Utility packages (included in Python standard library, listed for reference)
+# logging - standard library
+# datetime - standard library
+# json - standard library
+# typing - standard library
+# pathlib - standard library
+# os - standard library
+# sys - standard library
+# random - standard library
+# string - standard library
+# urllib - standard library
+# warnings - standard library
