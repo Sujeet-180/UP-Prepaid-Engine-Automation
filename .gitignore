@@ -4,9 +4,6 @@ __pycache__/
 *$py.class
 *.so
 .Python
-env/
-venv/
-ENV/
 build/
 develop-eggs/
 dist/
@@ -23,12 +20,11 @@ wheels/
 .installed.cfg
 *.egg
 
-# Logs
-logs/
-*.log
-
-# Result files (may contain sensitive data)
-Result_File/
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
 
 # IDE
 .vscode/
@@ -36,8 +32,57 @@ Result_File/
 *.swp
 *.swo
 *~
-
-# OS
 .DS_Store
-Thumbs.db
 
+# Generated Files
+logs/
+*.log
+
+# Result Files
+Result_File/
+*.xlsx
+!docs/*.xlsx
+
+# CSV Files
+Consumer_details.csv
+Prepaid_Ledger_Report.xlsx
+Formula_*.xlsx
+Scenario_*.xlsx
+Ledger_*.xlsx
+*.csv
+!docs/*.csv
+
+# Test Reports
+test_report*.html
+daily_test_report_*.csv
+scenario_comparison.csv
+
+# Database dumps
+*.sql
+*.dump
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Environment variables
+.env
+.env.local
+
+# Temporary files
+*.tmp
+*.temp
+tmp/
+temp/
