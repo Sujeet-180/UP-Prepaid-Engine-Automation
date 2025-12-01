@@ -42,8 +42,8 @@ class PrepaidLedgerComparison:
         logger.info("Account ID: 2222550011")
         
         # Date range for energy consumption calculation
-        self.start_date = "2025-10-01T00:00:00"
-        self.end_date = "2025-11-01T00:00:00"  # End date is exclusive, covers all of October 2025
+        self.start_date = "2025-11-01T00:00:00"
+        self.end_date = "2025-12-01T00:00:00"  # End date is exclusive, covers all of October 2025
         logger.info(f"Date Range: {self.start_date} to {self.end_date} (exclusive end date)")
         
         
